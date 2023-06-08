@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Mimih</title>
+  </head>
+  <!-- My fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- My linkfeather -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Linkcss -->
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h2>Warung Mimih</h2>
+        <h5>Green Mutiara Block F-09</h5>
+      </div>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Daftar Belanja</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-text">
+        <h5>#Bosan dirumah?</h5>
+        <h4>Kerjaan Numpuk ?</h4>
+        <h3>Cari tempat <span> NONGKRONG ?</span></h3>
+        <h2>Nongkrong Aja diWarung <span> MIMIH!!</span></h2>
+        <p>warung mimih menyediakan berbagai macam sembako dan jajanan</p>
+        <h3>Disini Tersedia <span class="javs"></span></h3>
+        <span class="ozan"></span>
+      </div>
+      <div class="img">
+        <img src="warung-war.jpg" alt="" class="" width="200px">
+      </div>
+    </section>
+
+    <!-- javascript feather icon -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- javascript custom ilhamFauzan -->
+    <script src="script.js"></script>
+
+    <!-- typed javascript -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".javs", {
+        strings: [
+          "Beras",
+          "Minyak Goreng",
+          "Telur",
+          "Pulsa",
+          "Voucher",
+          "Token",
+          "Voucher Game",
+          "Isi Galon",
+          "Gas LPG 3KG",
+        ],
+        loop: true,
+        typeSpeed: 50,
+        backSpeed: 30,
+      });
+    </script>
+    <script>
+      var typed = new Typed(".ozan", {
+        strings: [
+          "Belanja Puas",
+          "Harga Pas",
+          "Hanya Diwarung Mimih",
+          "Green Mutiara Block F-09",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 30,
+      });
+    </script>
+  </body>
+</html>
